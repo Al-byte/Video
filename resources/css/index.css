@@ -1,0 +1,133 @@
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    text-align: center;
+    background-color: #000 !important;
+    font-weight: 800 !important;
+    overflow: hidden;
+  }
+
+/* Start of navbar */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgb(198, 0, 2);
+}
+
+.navbar-expand-lg {
+
+}
+
+.navbar-light {
+
+}
+
+.bg-light {
+
+}
+
+.navbar-brand img {
+  width: 100px !important;
+  height: auto !important;
+  border: 2px solid rgba(0,6,12,.5);
+     box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler {
+  border:2px solid rgba(0,6,12,.5);
+  box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler-icon {
+  
+}
+
+.navbar-nav {
+
+}
+
+.ml-auto {
+
+}
+
+.nav-item {
+
+}
+
+.dropdown {
+
+}
+
+.nav-link { color: white !important; font-weight: 800;}
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+.dropdown-toggle {
+  
+}
+
+.dropdown-menu {
+  max-width: 120px;
+  
+}
+
+.dropdown-item {
+
+}
+
+/* End of navbar */
+
+/* Start of Video */
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+
+/* unvisited link */
+a:link {
+  color: rgb(198, 0, 2);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(198, 0, 2);
+}
+
+/* mouse over link */
+a:hover {
+  color: black !important;
+}
+
+/* selected link */
+a:active {
+  color: rgb(198, 0, 2);
+}
+
